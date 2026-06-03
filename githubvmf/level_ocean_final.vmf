@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "51"
+	"mapversion" "52"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "51"
+	"mapversion" "52"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"comment" "Decompiled by BSPSource v1.4.2-rc.1 from level_ocean_final"
@@ -25769,13 +25769,170 @@ entity
 		"logicalpos" "[0 3500]"
 	}
 }
+entity
+{
+	"id" "17184"
+	"classname" "prop_static"
+	"angles" "0 0 0"
+	"disableselfshadowing" "0"
+	"disableshadows" "0"
+	"disablevertexlighting" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"ignorenormals" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "models/props_silo/ladderrung.mdl"
+	"screenspacefade" "0"
+	"skin" "0"
+	"solid" "6"
+	"origin" "3008 784 16"
+	editor
+	{
+		"color" "255 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17213"
+	"classname" "func_ladder"
+	solid
+	{
+		"id" "17211"
+		side
+		{
+			"id" "2513"
+			"plane" "(3006 794 88) (3018 794 88) (3018 774 88)"
+			vertices_plus
+			{
+				"v" "3006 794 88"
+				"v" "3018 794 88"
+				"v" "3018 774 88"
+				"v" "3006 774 88"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2512"
+			"plane" "(3006 774 -42) (3018 774 -42) (3018 794 -42)"
+			vertices_plus
+			{
+				"v" "3006 774 -42"
+				"v" "3018 774 -42"
+				"v" "3018 794 -42"
+				"v" "3006 794 -42"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 -0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2511"
+			"plane" "(3006 794 88) (3006 774 88) (3006 774 -42)"
+			vertices_plus
+			{
+				"v" "3006 794 88"
+				"v" "3006 774 88"
+				"v" "3006 774 -42"
+				"v" "3006 794 -42"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2510"
+			"plane" "(3018 794 -42) (3018 774 -42) (3018 774 88)"
+			vertices_plus
+			{
+				"v" "3018 794 -42"
+				"v" "3018 774 -42"
+				"v" "3018 774 88"
+				"v" "3018 794 88"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2509"
+			"plane" "(3018 794 88) (3006 794 88) (3006 794 -42)"
+			vertices_plus
+			{
+				"v" "3018 794 88"
+				"v" "3006 794 88"
+				"v" "3006 794 -42"
+				"v" "3018 794 -42"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2508"
+			"plane" "(3018 774 -42) (3006 774 -42) (3006 774 88)"
+			vertices_plus
+			{
+				"v" "3018 774 -42"
+				"v" "3006 774 -42"
+				"v" "3006 774 88"
+				"v" "3018 774 88"
+			}
+			"material" "TOOLS/TOOLSINVISIBLELADDER"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 32] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1891.48 1735.38 312.256]"
-		"look" "[1685.96 1682.61 151.198]"
+		"position" "[1679.65 1217.43 263.475]"
+		"look" "[1910.26 1350.58 256.036]"
 	}
 }
 cordons

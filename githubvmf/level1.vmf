@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "135"
+	"mapversion" "138"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "135"
+	"mapversion" "138"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/l4d2detailsprites_overgrown"
@@ -15693,26 +15693,6 @@ world
 		editor
 		{
 			"color" "171 148 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "34616"
-		editor
-		{
-			"color" "241 210 0"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-		}
-	}
-	group
-	{
-		"id" "35187"
-		editor
-		{
-			"color" "206 171 0"
 			"visgroupshown" "1"
 			"visgroupautoshown" "1"
 		}
@@ -78067,6 +78047,69 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 3500]"
+	}
+}
+entity
+{
+	"id" "40289"
+	"classname" "move_rope"
+	"angles" "0 272.846 0"
+	"Barbed" "0"
+	"Breakable" "0"
+	"Collide" "0"
+	"Dangling" "0"
+	"fademaxdist" "1248"
+	"fademindist" "1024"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"MoveSpeed" "64"
+	"NoWind" "0"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "metal/metalcombinegrate001a"
+	"Slack" "25"
+	"Subdiv" "2"
+	"targetname" "Rok11"
+	"TextureScale" "1"
+	"Type" "0"
+	"Width" "2"
+	"origin" "-1488 -768 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
+	}
+}
+entity
+{
+	"id" "40292"
+	"classname" "move_rope"
+	"angles" "0 272.846 0"
+	"Barbed" "0"
+	"Breakable" "0"
+	"Collide" "0"
+	"Dangling" "0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"MoveSpeed" "64"
+	"NextKey" "Rok11"
+	"NoWind" "0"
+	"PositionInterpolator" "2"
+	"RopeMaterial" "cable/hose_orange1"
+	"Slack" "25"
+	"Subdiv" "2"
+	"targetname" "rok0"
+	"TextureScale" "1"
+	"Type" "0"
+	"Width" "2"
+	"origin" "-1240 -1792 192"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14000]"
 	}
 }
 cameras
