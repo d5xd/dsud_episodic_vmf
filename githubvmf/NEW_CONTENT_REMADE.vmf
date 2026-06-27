@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8871"
-	"mapversion" "131"
+	"mapversion" "135"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -89,7 +89,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "131"
+	"mapversion" "135"
 	"classname" "worldspawn"
 	"chaptertitlenomessage" "1"
 	"detailmaterial" "detail/detailsprites"
@@ -174101,7 +174101,7 @@ entity
 	{
 		"OnPressed" "donottouch1,Kill,,0,0"
 		"OnPressed" "fade,Fade,,0,-1"
-		"OnPressed" "cmd,Command,map katarhey,0,-1"
+		"OnPressed" "cmd,Command,changelevel katarhey,0,-1"
 	}
 	solid
 	{
@@ -195361,6 +195361,25 @@ entity
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 5000]"
+	}
+}
+entity
+{
+	"id" "118978"
+	"classname" "logic_playerproxy"
+	"HandsVM" "models/weapons/v_hands.mdl"
+	"HideSquadHUD" "0"
+	"ProtagonistName" "nestor_test"
+	"SetMaxInputArmor" "100"
+	"SetSuitZoomFOV" "25"
+	"skin" "0"
+	"origin" "-603.723 344.108 8"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
 	}
 }
 cameras
